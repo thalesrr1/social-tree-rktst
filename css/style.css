@@ -9,4 +9,27 @@
 
 body {
     font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: var(--purple);
+    background-color: var(--body-bg-color);
+}
+
+#img-container {
+    width: 200px;
+    height: 200px;
+}
+
+#img-container img {
+    border: 2px solid ;
+    border-radius: 50%;
+    padding: 2%;
+}
+
+.btn-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 15%;
 }
