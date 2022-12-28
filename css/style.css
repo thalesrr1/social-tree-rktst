@@ -7,10 +7,18 @@
     --purple: #BB99DD;
 }
 
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
 body {
     font-family: 'Poppins', sans-serif;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
     color: var(--purple);
     background-color: var(--body-bg-color);
