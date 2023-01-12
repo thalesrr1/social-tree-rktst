@@ -43,6 +43,7 @@ body {
     /* box-sizing: border-box; */
 }
 
+
 .btn-container ul li {
     border: 1px solid var(--purple);
     border-radius: 3px;
@@ -51,4 +52,10 @@ body {
     padding: 5px 12px;
     text-align: center;
     justify-content: center;
+}
+
+
+.icons-container img {
+    width: 45%;
+    height: auto;
 }
